@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UksusoFF\PhpCsFixer\Config;
+namespace UksusoFF\PhpCsFixer;
 
 use PhpCsFixer\Config;
 

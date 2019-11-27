@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "UksusoFF\\PhpCsFixer\\Config\\": "src"
+            "UksusoFF\\PhpCsFixer\\": "src"
         }
     }
 }

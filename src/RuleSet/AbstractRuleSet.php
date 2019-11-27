@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace UksusoFF\PhpCsFixer\Config\RuleSet;
+namespace UksusoFF\PhpCsFixer\RuleSet;
 
-use UksusoFF\PhpCsFixer\Config\RuleSet;
+use UksusoFF\PhpCsFixer\RuleSet;
 
 abstract class AbstractRuleSet implements RuleSet
 {

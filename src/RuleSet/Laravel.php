@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace UksusoFF\PhpCsFixer\Config\RuleSet;
+namespace UksusoFF\PhpCsFixer\RuleSet;
 
 final class Laravel extends AbstractRuleSet
 {
