@@ -13,6 +13,7 @@ final class Factory
         $config = new Config($ruleSet->name());
 
         $config->setRiskyAllowed(true);
+        $config->setLineEnding("\n");
         $config->setRules(\array_merge(
             $ruleSet->rules(),
             $overrideRules
