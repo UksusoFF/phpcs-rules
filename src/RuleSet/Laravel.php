@@ -1,0 +1,50 @@
+<?php
+
+declare(strict_types=1);
+
+namespace UksusoFF\PhpCsFixer\Config\RuleSet;
+
+final class Laravel extends AbstractRuleSet
+{
+    protected $name = 'Laravel';
+
+    protected $rules = [
+        '@PSR2' => true, //https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/master/src/RuleSet.php
+        'function_declaration' => [
+            'closure_function_spacing' => 'none', //PhpStorm Preferences: Spaces => Before Parentheses => Anonymous function parentheses
+        ],
+        /*
+         * Part of @PSR2 but not work for multiline: https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3637
+        'braces' => [
+            'position_after_functions_and_oop_constructs' => 'next',
+        ],
+        */
+        'class_attributes_separation' => true,
+        'psr4' => true,
+        'no_extra_blank_lines' => true,
+        /* Strings */
+        'simple_to_complex_string_variable' => true,
+        'single_quote' => true,
+        'explicit_string_variable' => true,
+        /* Strings */
+        /* Array */
+        'array_syntax' => [
+            'syntax' => 'short',
+        ],
+        'trailing_comma_in_multiline_array' => true,
+        'no_trailing_comma_in_singleline_array' => true,
+        /* Array */
+        /* List */
+        'list_syntax' => [
+            'syntax' => 'short',
+        ],
+        /* List */
+        /* Imports */
+        'ordered_imports' => [
+            'sortAlgorithm' => 'alpha',
+        ],
+        'no_unused_imports' => true,
+        /* Imports */
+        'single_blank_line_before_namespace' => true,
+    ];
+}

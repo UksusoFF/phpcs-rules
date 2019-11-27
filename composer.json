@@ -1,0 +1,26 @@
+{
+    "name": "uksusoff/php-cs-fixer-config",
+    "type": "library",
+    "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
+    "homepage": "https://github.com/UksusoFF/php-cs-fixer-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uksusov Kirill",
+            "email": "uksusoff@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "UksusoFF\\PhpCsFixer\\Config\\": "src"
+        }
+    }
+}
