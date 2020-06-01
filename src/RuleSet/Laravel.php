@@ -49,5 +49,7 @@ final class Laravel extends AbstractRuleSet
         'no_unused_imports' => true,
         /* Imports */
         'single_blank_line_before_namespace' => true,
+        'short_scalar_cast' => true,
+        'implode_call' => true,
     ];
 }
