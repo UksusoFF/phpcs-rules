@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace UksusoFF\PhpCsFixer;
 
 use PhpCsFixer\Config;
+use UksusoFF\PhpCsFixer\Fixer\CommentMustStartsFromSpaceFixer;
 
 final class Factory
 {
@@ -18,6 +19,10 @@ final class Factory
             $ruleSet->rules(),
             $overrideRules
         ));
+
+        $config->registerCustomFixers([
+            new CommentMustStartsFromSpaceFixer,
+        ]);
 
         return $config;
     }

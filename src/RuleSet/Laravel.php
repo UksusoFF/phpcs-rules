@@ -48,6 +48,14 @@ final class Laravel extends AbstractRuleSet
         ],
         'no_unused_imports' => true,
         /* Imports */
+        /* Comments */
+        'align_multiline_comment' => true,
+        'multiline_comment_opening_closing' => true,
+        'single_line_comment_style' => [
+            'comment_types' => ['asterisk', 'hash'],
+        ],
+        'UksusoFF/comment_must_starts_from_space' => true,
+        /* Comments */
         'single_blank_line_before_namespace' => true,
         'short_scalar_cast' => true,
         'implode_call' => true,
