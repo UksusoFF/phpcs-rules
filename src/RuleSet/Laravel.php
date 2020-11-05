@@ -59,5 +59,6 @@ final class Laravel extends AbstractRuleSet
         'single_blank_line_before_namespace' => true,
         'short_scalar_cast' => true,
         'implode_call' => true,
+        'new_with_braces' => true,
     ];
 }
