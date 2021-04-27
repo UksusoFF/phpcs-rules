@@ -21,6 +21,7 @@ final class Laravel extends AbstractRuleSet
         */
         'class_attributes_separation' => true,
         'psr4' => true,
+        'unary_operator_spaces' => true,
         'no_extra_blank_lines' => true,
         'binary_operator_spaces' => [
             'default' => 'single_space',
