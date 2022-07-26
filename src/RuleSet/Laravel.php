@@ -20,7 +20,7 @@ final class Laravel extends AbstractRuleSet
         ],
         */
         'class_attributes_separation' => true,
-        'psr4' => true,
+        'psr_autoloading' => true,
         'unary_operator_spaces' => true,
         'no_extra_blank_lines' => true,
         'binary_operator_spaces' => [
@@ -35,7 +35,7 @@ final class Laravel extends AbstractRuleSet
         'array_syntax' => [
             'syntax' => 'short',
         ],
-        'trailing_comma_in_multiline_array' => true,
+        'trailing_comma_in_multiline' => true,
         'no_trailing_comma_in_singleline_array' => true,
         /* Array */
         /* List */
@@ -45,7 +45,7 @@ final class Laravel extends AbstractRuleSet
         /* List */
         /* Imports */
         'ordered_imports' => [
-            'sortAlgorithm' => 'alpha',
+            'sort_algorithm' => 'alpha',
         ],
         'no_unused_imports' => true,
         /* Imports */
