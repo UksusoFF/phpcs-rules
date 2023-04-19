@@ -62,6 +62,6 @@ final class Laravel extends AbstractRuleSet
         'implode_call' => true,
         'new_with_braces' => true,
         'declare_strict_types' => true,
-        'no_unused_imports' => true,
+        'blank_line_after_opening_tag' => true,
     ];
 }
