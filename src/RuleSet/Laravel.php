@@ -12,6 +12,7 @@ final class Laravel extends AbstractRuleSet
         '@PSR2' => true, //https://github.com/FriendsOfPHP/PHP-CS-Fixer/blob/master/src/RuleSet.php
         'function_declaration' => [
             'closure_function_spacing' => 'none', //PhpStorm Preferences: Spaces => Before Parentheses => Anonymous function parentheses
+            'closure_fn_spacing' => 'none',
         ],
         /*
          * Part of @PSR2 but not work for multiline: https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/3637
