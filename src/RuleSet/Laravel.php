@@ -37,7 +37,7 @@ final class Laravel extends AbstractRuleSet
             'syntax' => 'short',
         ],
         'trailing_comma_in_multiline' => true,
-        'no_trailing_comma_in_singleline_array' => true,
+        'no_trailing_comma_in_singleline' => true,
         /* Array */
         /* List */
         'list_syntax' => [
@@ -58,7 +58,7 @@ final class Laravel extends AbstractRuleSet
         ],
         'UksusoFF/comment_must_starts_from_space' => true,
         /* Comments */
-        'single_blank_line_before_namespace' => true,
+        'blank_lines_before_namespace' => true,
         'short_scalar_cast' => true,
         'implode_call' => true,
         'new_with_braces' => true,
