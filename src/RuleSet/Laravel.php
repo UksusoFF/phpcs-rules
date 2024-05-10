@@ -58,6 +58,9 @@ final class Laravel extends AbstractRuleSet
         ],
         'UksusoFF/comment_must_starts_from_space' => true,
         /* Comments */
+        /* Spaces */
+        'cast_spaces' => true,
+        /* Spaces */
         'blank_lines_before_namespace' => true,
         'short_scalar_cast' => true,
         'implode_call' => true,
